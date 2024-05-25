@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/widgetBackground"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/shape"
+	tools:ignore="RequiredSizeWidth,RequiredSizeHeight">
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:columnCount="2"
+		android:rowCount="2"
+		android:background="#1e90ff"
+		android:paddingBottom="5dip"
+		android:id="@+id/score">
+		<TextView
+			android:id="@+id/teamOne"
+			android:text="Team One Name"
+			android:textSize="16dp"
+			android:textColor="#ff000000"
+			android:layout_marginLeft="10dip"
+			android:layout_alignParentTop="true"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/teamOnePitcher"
+			android:text="Team One Pitcher"
+			android:textSize="10dp"
+			android:textColor="#ff000000"
+			android:layout_marginLeft="10dip"
+			android:layout_below="@id/teamOne"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/teamTwo"
+			android:text="Team Two Name"
+			android:textSize="16dp"
+			android:textColor="#ff000000"
+			android:layout_marginLeft="10dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/teamOnePitcher"/>
+		<TextView
+			android:id="@+id/teamTwoPitcher"
+			android:text="Team Two Pitcher"
+			android:textSize="10dp"
+			android:textColor="#ff000000"
+			android:layout_marginLeft="10dip"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_below="@id/teamTwo"/>
+		<TextView
+			android:id="@+id/teamOneScore"
+			android:layout_column="0"
+			android:layout_row="0"
+			android:text="Team One Score"
+			android:textAlignment="viewEnd"
+			android:textSize="24dp"
+			android:textColor="#ff000000"
+			android:layout_toRightOf="@id/teamOne"
+			android:layout_marginRight="5dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+		<TextView
+			android:id="@+id/teamTwoScore"
+			android:text="Team Two Score"
+			android:textAlignment="viewEnd"
+			android:textSize="24dp"
+			android:textColor="#ff000000"
+			android:layout_below="@id/teamOneScore"
+			android:layout_toRightOf="@id/teamTwo"
+			android:layout_marginRight="5dp"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"/>
+	</RelativeLayout>
+</LinearLayout>

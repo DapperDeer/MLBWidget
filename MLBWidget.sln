@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLBWidget", "MLBWidget.csproj", "{23BF0737-3664-4689-872E-750ECFA6386B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLBWidget.Android", "MLBWidget.Android\MLBWidget.Android.csproj", "{02869CF6-6EE6-4D4B-9D96-F0288A328B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MLBWidget.Android.Net", "MLBWidget.Android.Net\MLBWidget.Android.Net.csproj", "{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{23BF0737-3664-4689-872E-750ECFA6386B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23BF0737-3664-4689-872E-750ECFA6386B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23BF0737-3664-4689-872E-750ECFA6386B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23BF0737-3664-4689-872E-750ECFA6386B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02869CF6-6EE6-4D4B-9D96-F0288A328B63}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB0CCB6-F12B-4240-BE1A-860948A8F8DB}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4784A19-EC3B-44C7-82AD-4CB8EA87F5A7}
+	EndGlobalSection
+EndGlobal
